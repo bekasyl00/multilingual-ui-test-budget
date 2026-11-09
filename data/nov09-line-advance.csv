@@ -1,0 +1,9 @@
+id,native_line_advance_px,spacing_line_advance_px,delta_px,result
+token_de_1280,17,21,4,measured_non_decrease_in_current_probe
+token_de_320,17,21,4,measured_non_decrease_in_current_probe
+token_de_375,17,21,4,measured_non_decrease_in_current_probe
+token_de_768,17,21,4,measured_non_decrease_in_current_probe
+token_en_1280,17,21,4,measured_non_decrease_in_current_probe
+token_en_320,17,21,4,measured_non_decrease_in_current_probe
+token_en_375,17,21,4,measured_non_decrease_in_current_probe
+token_en_768,17,21,4,measured_non_decrease_in_current_probe

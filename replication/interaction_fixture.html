@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Text clipping interaction fixture</title>
+<style>
+body { margin: 12px; color: #122037; background: #f3f7fa; font-family: system-ui, sans-serif; }
+h1 { font-size: 18px; }
+section { margin: 12px 0; }
+span.control-name { display: block; font-size: 12px; }
+button { padding: 4px; border: 1px solid #2d4357; background: white; color: #122037; border-radius: 4px; }
+.label { display: block; overflow: hidden; white-space: nowrap; text-align: start; font: 16px/1.2 monospace; }
+.unary .label { width: 170px; }
+.binary .label, .ternary .label, .negative .label { width: 248px; }
+.negative .label { white-space: normal; overflow-wrap: anywhere; }
+@media (max-width: 340px) {
+  .binary .label { width: 170px; }
+  .ternary .label, .negative .label { width: 202px; }
+}
+</style>
+</head>
+<body>
+<h1>Text clipping controls</h1>
+<section class="unary"><span class="control-name">Locale-sensitive fixed slot</span><button><span class="label"></span></button></section>
+<section class="binary"><span class="control-name">Narrow breakpoint slot</span><button><span class="label"></span></button></section>
+<section class="ternary"><span class="control-name">Narrow breakpoint slot with larger text capacity</span><button><span class="label"></span></button></section>
+<section class="negative"><span class="control-name">Wrapping control</span><button><span class="label"></span></button></section>
+<output aria-live="polite"></output>
+<script>
+const labels = { en: 'Download file', fr: 'Télécharger', de: 'Datei herunterladen' };
+window.configureFixture = locale => {
+  document.documentElement.lang = locale;
+  for (const label of document.querySelectorAll('.label')) label.textContent = labels[locale];
+};
+for (const button of document.querySelectorAll('button')) {
+  button.addEventListener('click', () => { document.querySelector('output').value = button.parentElement.className; });
+}
+window.configureFixture('en');
+</script>
+</body>
+</html>

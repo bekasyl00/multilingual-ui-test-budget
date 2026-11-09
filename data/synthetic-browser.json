@@ -1,0 +1,1565 @@
+{
+  "fixtureHash": "b4bb59a1aba3de380f9e913b94478de1d10d3b57b3a5268eb16b78cf83100745",
+  "browserVersion": "156.0.8078.80",
+  "nodeVersion": "v25.4.0",
+  "configurations": 24,
+  "checks": 96,
+  "assertionAgreement": 96,
+  "clickChecksPassed": 96,
+  "summary": {
+    "unary": {
+      "fullGridHits": 8,
+      "checkerboardHits": 4
+    },
+    "binary": {
+      "fullGridHits": 2,
+      "checkerboardHits": 1
+    },
+    "ternary": {
+      "fullGridHits": 1,
+      "checkerboardHits": 0
+    },
+    "negative": {
+      "fullGridHits": 0,
+      "checkerboardHits": 0
+    }
+  },
+  "rows": [
+    {
+      "locale": "en",
+      "width": 1280,
+      "regime": "native",
+      "expected": {
+        "unary": false,
+        "binary": false,
+        "ternary": false,
+        "negative": false
+      },
+      "observed": {
+        "unary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 170,
+          "clientWidth": 170,
+          "lines": 1,
+          "content": "Download file",
+          "lineHeight": 19.2,
+          "letterSpacing": 0,
+          "wordSpacing": 0,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "binary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 248,
+          "clientWidth": 248,
+          "lines": 1,
+          "content": "Download file",
+          "lineHeight": 19.2,
+          "letterSpacing": 0,
+          "wordSpacing": 0,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "ternary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 248,
+          "clientWidth": 248,
+          "lines": 1,
+          "content": "Download file",
+          "lineHeight": 19.2,
+          "letterSpacing": 0,
+          "wordSpacing": 0,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "negative": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 248,
+          "clientWidth": 248,
+          "lines": 1,
+          "content": "Download file",
+          "lineHeight": 19.2,
+          "letterSpacing": 0,
+          "wordSpacing": 0,
+          "overflowX": "hidden",
+          "clipped": false
+        }
+      },
+      "checkerboardSelected": true,
+      "screenshot": "en-1280-native.png",
+      "screenshotSha256": "728461b3d5101c02517d9960190b3e930e9fd15fe2adea501ea24ddccfb4eff3"
+    },
+    {
+      "locale": "en",
+      "width": 1280,
+      "regime": "spacing",
+      "expected": {
+        "unary": false,
+        "binary": false,
+        "ternary": false,
+        "negative": false
+      },
+      "observed": {
+        "unary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 170,
+          "clientWidth": 170,
+          "lines": 1,
+          "content": "Download file",
+          "lineHeight": 24,
+          "letterSpacing": 1.92,
+          "wordSpacing": 2.56,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "binary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 248,
+          "clientWidth": 248,
+          "lines": 1,
+          "content": "Download file",
+          "lineHeight": 24,
+          "letterSpacing": 1.92,
+          "wordSpacing": 2.56,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "ternary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 248,
+          "clientWidth": 248,
+          "lines": 1,
+          "content": "Download file",
+          "lineHeight": 24,
+          "letterSpacing": 1.92,
+          "wordSpacing": 2.56,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "negative": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 248,
+          "clientWidth": 248,
+          "lines": 1,
+          "content": "Download file",
+          "lineHeight": 24,
+          "letterSpacing": 1.92,
+          "wordSpacing": 2.56,
+          "overflowX": "hidden",
+          "clipped": false
+        }
+      },
+      "checkerboardSelected": false,
+      "screenshot": "en-1280-spacing.png",
+      "screenshotSha256": "148cab1150115e5447f3acd906fd963fd2d1d7543fc07e83d5d4f6848a793dc0"
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "regime": "native",
+      "expected": {
+        "unary": false,
+        "binary": false,
+        "ternary": false,
+        "negative": false
+      },
+      "observed": {
+        "unary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 170,
+          "clientWidth": 170,
+          "lines": 1,
+          "content": "Download file",
+          "lineHeight": 19.2,
+          "letterSpacing": 0,
+          "wordSpacing": 0,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "binary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 248,
+          "clientWidth": 248,
+          "lines": 1,
+          "content": "Download file",
+          "lineHeight": 19.2,
+          "letterSpacing": 0,
+          "wordSpacing": 0,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "ternary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 248,
+          "clientWidth": 248,
+          "lines": 1,
+          "content": "Download file",
+          "lineHeight": 19.2,
+          "letterSpacing": 0,
+          "wordSpacing": 0,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "negative": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 248,
+          "clientWidth": 248,
+          "lines": 1,
+          "content": "Download file",
+          "lineHeight": 19.2,
+          "letterSpacing": 0,
+          "wordSpacing": 0,
+          "overflowX": "hidden",
+          "clipped": false
+        }
+      },
+      "checkerboardSelected": false,
+      "screenshot": "en-768-native.png",
+      "screenshotSha256": "aec299d5b8eee45fc74ffdd14811410eab4b78f5994a6900f2dd594df839b9b2"
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "regime": "spacing",
+      "expected": {
+        "unary": false,
+        "binary": false,
+        "ternary": false,
+        "negative": false
+      },
+      "observed": {
+        "unary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 170,
+          "clientWidth": 170,
+          "lines": 1,
+          "content": "Download file",
+          "lineHeight": 24,
+          "letterSpacing": 1.92,
+          "wordSpacing": 2.56,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "binary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 248,
+          "clientWidth": 248,
+          "lines": 1,
+          "content": "Download file",
+          "lineHeight": 24,
+          "letterSpacing": 1.92,
+          "wordSpacing": 2.56,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "ternary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 248,
+          "clientWidth": 248,
+          "lines": 1,
+          "content": "Download file",
+          "lineHeight": 24,
+          "letterSpacing": 1.92,
+          "wordSpacing": 2.56,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "negative": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 248,
+          "clientWidth": 248,
+          "lines": 1,
+          "content": "Download file",
+          "lineHeight": 24,
+          "letterSpacing": 1.92,
+          "wordSpacing": 2.56,
+          "overflowX": "hidden",
+          "clipped": false
+        }
+      },
+      "checkerboardSelected": true,
+      "screenshot": "en-768-spacing.png",
+      "screenshotSha256": "82111b210fbaf6d5a2e66e7f6b28dfd3ea21aeb2abddc6c9920f29bde78beff8"
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "regime": "native",
+      "expected": {
+        "unary": false,
+        "binary": false,
+        "ternary": false,
+        "negative": false
+      },
+      "observed": {
+        "unary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 170,
+          "clientWidth": 170,
+          "lines": 1,
+          "content": "Download file",
+          "lineHeight": 19.2,
+          "letterSpacing": 0,
+          "wordSpacing": 0,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "binary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 248,
+          "clientWidth": 248,
+          "lines": 1,
+          "content": "Download file",
+          "lineHeight": 19.2,
+          "letterSpacing": 0,
+          "wordSpacing": 0,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "ternary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 248,
+          "clientWidth": 248,
+          "lines": 1,
+          "content": "Download file",
+          "lineHeight": 19.2,
+          "letterSpacing": 0,
+          "wordSpacing": 0,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "negative": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 248,
+          "clientWidth": 248,
+          "lines": 1,
+          "content": "Download file",
+          "lineHeight": 19.2,
+          "letterSpacing": 0,
+          "wordSpacing": 0,
+          "overflowX": "hidden",
+          "clipped": false
+        }
+      },
+      "checkerboardSelected": true,
+      "screenshot": "en-375-native.png",
+      "screenshotSha256": "8d0650ef44494d9e3595d67cd4e0a4a14fbe686f21b7680cf09d223987f40ee8"
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "regime": "spacing",
+      "expected": {
+        "unary": false,
+        "binary": false,
+        "ternary": false,
+        "negative": false
+      },
+      "observed": {
+        "unary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 170,
+          "clientWidth": 170,
+          "lines": 1,
+          "content": "Download file",
+          "lineHeight": 24,
+          "letterSpacing": 1.92,
+          "wordSpacing": 2.56,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "binary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 248,
+          "clientWidth": 248,
+          "lines": 1,
+          "content": "Download file",
+          "lineHeight": 24,
+          "letterSpacing": 1.92,
+          "wordSpacing": 2.56,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "ternary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 248,
+          "clientWidth": 248,
+          "lines": 1,
+          "content": "Download file",
+          "lineHeight": 24,
+          "letterSpacing": 1.92,
+          "wordSpacing": 2.56,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "negative": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 248,
+          "clientWidth": 248,
+          "lines": 1,
+          "content": "Download file",
+          "lineHeight": 24,
+          "letterSpacing": 1.92,
+          "wordSpacing": 2.56,
+          "overflowX": "hidden",
+          "clipped": false
+        }
+      },
+      "checkerboardSelected": false,
+      "screenshot": "en-375-spacing.png",
+      "screenshotSha256": "8814c8134768f74ee2dfd68754a43bc207b00e3209fed5129d430942ad809c56"
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "regime": "native",
+      "expected": {
+        "unary": false,
+        "binary": false,
+        "ternary": false,
+        "negative": false
+      },
+      "observed": {
+        "unary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 170,
+          "clientWidth": 170,
+          "lines": 1,
+          "content": "Download file",
+          "lineHeight": 19.2,
+          "letterSpacing": 0,
+          "wordSpacing": 0,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "binary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 170,
+          "clientWidth": 170,
+          "lines": 1,
+          "content": "Download file",
+          "lineHeight": 19.2,
+          "letterSpacing": 0,
+          "wordSpacing": 0,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "ternary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 202,
+          "clientWidth": 202,
+          "lines": 1,
+          "content": "Download file",
+          "lineHeight": 19.2,
+          "letterSpacing": 0,
+          "wordSpacing": 0,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "negative": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 202,
+          "clientWidth": 202,
+          "lines": 1,
+          "content": "Download file",
+          "lineHeight": 19.2,
+          "letterSpacing": 0,
+          "wordSpacing": 0,
+          "overflowX": "hidden",
+          "clipped": false
+        }
+      },
+      "checkerboardSelected": false,
+      "screenshot": "en-320-native.png",
+      "screenshotSha256": "153f2a33eb75e3710faa69db554a3425f5b13b044e5dbd0a9dade2b2cd048d8f"
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "regime": "spacing",
+      "expected": {
+        "unary": false,
+        "binary": false,
+        "ternary": false,
+        "negative": false
+      },
+      "observed": {
+        "unary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 170,
+          "clientWidth": 170,
+          "lines": 1,
+          "content": "Download file",
+          "lineHeight": 24,
+          "letterSpacing": 1.92,
+          "wordSpacing": 2.56,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "binary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 170,
+          "clientWidth": 170,
+          "lines": 1,
+          "content": "Download file",
+          "lineHeight": 24,
+          "letterSpacing": 1.92,
+          "wordSpacing": 2.56,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "ternary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 202,
+          "clientWidth": 202,
+          "lines": 1,
+          "content": "Download file",
+          "lineHeight": 24,
+          "letterSpacing": 1.92,
+          "wordSpacing": 2.56,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "negative": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 202,
+          "clientWidth": 202,
+          "lines": 1,
+          "content": "Download file",
+          "lineHeight": 24,
+          "letterSpacing": 1.92,
+          "wordSpacing": 2.56,
+          "overflowX": "hidden",
+          "clipped": false
+        }
+      },
+      "checkerboardSelected": true,
+      "screenshot": "en-320-spacing.png",
+      "screenshotSha256": "49eb3ecd430c9a62fd2546d08b702e2ed4beeae3e70640660df15c1595f78305"
+    },
+    {
+      "locale": "de",
+      "width": 1280,
+      "regime": "native",
+      "expected": {
+        "unary": true,
+        "binary": false,
+        "ternary": false,
+        "negative": false
+      },
+      "observed": {
+        "unary": {
+          "rightOverflowPx": 12.4375,
+          "scrollWidth": 182,
+          "clientWidth": 170,
+          "lines": 1,
+          "content": "Datei herunterladen",
+          "lineHeight": 19.2,
+          "letterSpacing": 0,
+          "wordSpacing": 0,
+          "overflowX": "hidden",
+          "clipped": true
+        },
+        "binary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 248,
+          "clientWidth": 248,
+          "lines": 1,
+          "content": "Datei herunterladen",
+          "lineHeight": 19.2,
+          "letterSpacing": 0,
+          "wordSpacing": 0,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "ternary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 248,
+          "clientWidth": 248,
+          "lines": 1,
+          "content": "Datei herunterladen",
+          "lineHeight": 19.2,
+          "letterSpacing": 0,
+          "wordSpacing": 0,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "negative": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 248,
+          "clientWidth": 248,
+          "lines": 1,
+          "content": "Datei herunterladen",
+          "lineHeight": 19.2,
+          "letterSpacing": 0,
+          "wordSpacing": 0,
+          "overflowX": "hidden",
+          "clipped": false
+        }
+      },
+      "checkerboardSelected": false,
+      "screenshot": "de-1280-native.png",
+      "screenshotSha256": "ab8f349148c466d614ddea7b652a79eb529605bc3cb8bcf4b3539a36e3a3daa4"
+    },
+    {
+      "locale": "de",
+      "width": 1280,
+      "regime": "spacing",
+      "expected": {
+        "unary": true,
+        "binary": false,
+        "ternary": false,
+        "negative": false
+      },
+      "observed": {
+        "unary": {
+          "rightOverflowPx": 51.484375,
+          "scrollWidth": 221,
+          "clientWidth": 170,
+          "lines": 1,
+          "content": "Datei herunterladen",
+          "lineHeight": 24,
+          "letterSpacing": 1.92,
+          "wordSpacing": 2.56,
+          "overflowX": "hidden",
+          "clipped": true
+        },
+        "binary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 248,
+          "clientWidth": 248,
+          "lines": 1,
+          "content": "Datei herunterladen",
+          "lineHeight": 24,
+          "letterSpacing": 1.92,
+          "wordSpacing": 2.56,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "ternary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 248,
+          "clientWidth": 248,
+          "lines": 1,
+          "content": "Datei herunterladen",
+          "lineHeight": 24,
+          "letterSpacing": 1.92,
+          "wordSpacing": 2.56,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "negative": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 248,
+          "clientWidth": 248,
+          "lines": 1,
+          "content": "Datei herunterladen",
+          "lineHeight": 24,
+          "letterSpacing": 1.92,
+          "wordSpacing": 2.56,
+          "overflowX": "hidden",
+          "clipped": false
+        }
+      },
+      "checkerboardSelected": true,
+      "screenshot": "de-1280-spacing.png",
+      "screenshotSha256": "2ea5af1be1ba0c72df22d9eeae20cbe65114665bcc51a1b7ac6fd77b268a72b5"
+    },
+    {
+      "locale": "de",
+      "width": 768,
+      "regime": "native",
+      "expected": {
+        "unary": true,
+        "binary": false,
+        "ternary": false,
+        "negative": false
+      },
+      "observed": {
+        "unary": {
+          "rightOverflowPx": 12.4375,
+          "scrollWidth": 182,
+          "clientWidth": 170,
+          "lines": 1,
+          "content": "Datei herunterladen",
+          "lineHeight": 19.2,
+          "letterSpacing": 0,
+          "wordSpacing": 0,
+          "overflowX": "hidden",
+          "clipped": true
+        },
+        "binary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 248,
+          "clientWidth": 248,
+          "lines": 1,
+          "content": "Datei herunterladen",
+          "lineHeight": 19.2,
+          "letterSpacing": 0,
+          "wordSpacing": 0,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "ternary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 248,
+          "clientWidth": 248,
+          "lines": 1,
+          "content": "Datei herunterladen",
+          "lineHeight": 19.2,
+          "letterSpacing": 0,
+          "wordSpacing": 0,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "negative": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 248,
+          "clientWidth": 248,
+          "lines": 1,
+          "content": "Datei herunterladen",
+          "lineHeight": 19.2,
+          "letterSpacing": 0,
+          "wordSpacing": 0,
+          "overflowX": "hidden",
+          "clipped": false
+        }
+      },
+      "checkerboardSelected": true,
+      "screenshot": "de-768-native.png",
+      "screenshotSha256": "4504155ad19f8345fc42a10874e479ac8b16d42210e9082fdedd0ec0609d9ddc"
+    },
+    {
+      "locale": "de",
+      "width": 768,
+      "regime": "spacing",
+      "expected": {
+        "unary": true,
+        "binary": false,
+        "ternary": false,
+        "negative": false
+      },
+      "observed": {
+        "unary": {
+          "rightOverflowPx": 51.484375,
+          "scrollWidth": 221,
+          "clientWidth": 170,
+          "lines": 1,
+          "content": "Datei herunterladen",
+          "lineHeight": 24,
+          "letterSpacing": 1.92,
+          "wordSpacing": 2.56,
+          "overflowX": "hidden",
+          "clipped": true
+        },
+        "binary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 248,
+          "clientWidth": 248,
+          "lines": 1,
+          "content": "Datei herunterladen",
+          "lineHeight": 24,
+          "letterSpacing": 1.92,
+          "wordSpacing": 2.56,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "ternary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 248,
+          "clientWidth": 248,
+          "lines": 1,
+          "content": "Datei herunterladen",
+          "lineHeight": 24,
+          "letterSpacing": 1.92,
+          "wordSpacing": 2.56,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "negative": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 248,
+          "clientWidth": 248,
+          "lines": 1,
+          "content": "Datei herunterladen",
+          "lineHeight": 24,
+          "letterSpacing": 1.92,
+          "wordSpacing": 2.56,
+          "overflowX": "hidden",
+          "clipped": false
+        }
+      },
+      "checkerboardSelected": false,
+      "screenshot": "de-768-spacing.png",
+      "screenshotSha256": "fe9376ca055452e13f9e1bf7fdb548968fa0b65a2dc00628858c31674437041b"
+    },
+    {
+      "locale": "de",
+      "width": 375,
+      "regime": "native",
+      "expected": {
+        "unary": true,
+        "binary": false,
+        "ternary": false,
+        "negative": false
+      },
+      "observed": {
+        "unary": {
+          "rightOverflowPx": 12.4375,
+          "scrollWidth": 182,
+          "clientWidth": 170,
+          "lines": 1,
+          "content": "Datei herunterladen",
+          "lineHeight": 19.2,
+          "letterSpacing": 0,
+          "wordSpacing": 0,
+          "overflowX": "hidden",
+          "clipped": true
+        },
+        "binary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 248,
+          "clientWidth": 248,
+          "lines": 1,
+          "content": "Datei herunterladen",
+          "lineHeight": 19.2,
+          "letterSpacing": 0,
+          "wordSpacing": 0,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "ternary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 248,
+          "clientWidth": 248,
+          "lines": 1,
+          "content": "Datei herunterladen",
+          "lineHeight": 19.2,
+          "letterSpacing": 0,
+          "wordSpacing": 0,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "negative": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 248,
+          "clientWidth": 248,
+          "lines": 1,
+          "content": "Datei herunterladen",
+          "lineHeight": 19.2,
+          "letterSpacing": 0,
+          "wordSpacing": 0,
+          "overflowX": "hidden",
+          "clipped": false
+        }
+      },
+      "checkerboardSelected": false,
+      "screenshot": "de-375-native.png",
+      "screenshotSha256": "840ed49e2ac632010cee17c80363badd3a5d3091b2c959a9f7a839107194feec"
+    },
+    {
+      "locale": "de",
+      "width": 375,
+      "regime": "spacing",
+      "expected": {
+        "unary": true,
+        "binary": false,
+        "ternary": false,
+        "negative": false
+      },
+      "observed": {
+        "unary": {
+          "rightOverflowPx": 51.484375,
+          "scrollWidth": 221,
+          "clientWidth": 170,
+          "lines": 1,
+          "content": "Datei herunterladen",
+          "lineHeight": 24,
+          "letterSpacing": 1.92,
+          "wordSpacing": 2.56,
+          "overflowX": "hidden",
+          "clipped": true
+        },
+        "binary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 248,
+          "clientWidth": 248,
+          "lines": 1,
+          "content": "Datei herunterladen",
+          "lineHeight": 24,
+          "letterSpacing": 1.92,
+          "wordSpacing": 2.56,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "ternary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 248,
+          "clientWidth": 248,
+          "lines": 1,
+          "content": "Datei herunterladen",
+          "lineHeight": 24,
+          "letterSpacing": 1.92,
+          "wordSpacing": 2.56,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "negative": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 248,
+          "clientWidth": 248,
+          "lines": 1,
+          "content": "Datei herunterladen",
+          "lineHeight": 24,
+          "letterSpacing": 1.92,
+          "wordSpacing": 2.56,
+          "overflowX": "hidden",
+          "clipped": false
+        }
+      },
+      "checkerboardSelected": true,
+      "screenshot": "de-375-spacing.png",
+      "screenshotSha256": "50e20f4286bd24085ff69058fb3bb5050e744f637d50c94009159643df3e29fd"
+    },
+    {
+      "locale": "de",
+      "width": 320,
+      "regime": "native",
+      "expected": {
+        "unary": true,
+        "binary": true,
+        "ternary": false,
+        "negative": false
+      },
+      "observed": {
+        "unary": {
+          "rightOverflowPx": 12.4375,
+          "scrollWidth": 182,
+          "clientWidth": 170,
+          "lines": 1,
+          "content": "Datei herunterladen",
+          "lineHeight": 19.2,
+          "letterSpacing": 0,
+          "wordSpacing": 0,
+          "overflowX": "hidden",
+          "clipped": true
+        },
+        "binary": {
+          "rightOverflowPx": 12.4375,
+          "scrollWidth": 182,
+          "clientWidth": 170,
+          "lines": 1,
+          "content": "Datei herunterladen",
+          "lineHeight": 19.2,
+          "letterSpacing": 0,
+          "wordSpacing": 0,
+          "overflowX": "hidden",
+          "clipped": true
+        },
+        "ternary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 202,
+          "clientWidth": 202,
+          "lines": 1,
+          "content": "Datei herunterladen",
+          "lineHeight": 19.2,
+          "letterSpacing": 0,
+          "wordSpacing": 0,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "negative": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 202,
+          "clientWidth": 202,
+          "lines": 1,
+          "content": "Datei herunterladen",
+          "lineHeight": 19.2,
+          "letterSpacing": 0,
+          "wordSpacing": 0,
+          "overflowX": "hidden",
+          "clipped": false
+        }
+      },
+      "checkerboardSelected": true,
+      "screenshot": "de-320-native.png",
+      "screenshotSha256": "10b536c2efb8d9a311115fb75396b8af1b18350f7b5dee0478c87462f1225e2d"
+    },
+    {
+      "locale": "de",
+      "width": 320,
+      "regime": "spacing",
+      "expected": {
+        "unary": true,
+        "binary": true,
+        "ternary": true,
+        "negative": false
+      },
+      "observed": {
+        "unary": {
+          "rightOverflowPx": 51.484375,
+          "scrollWidth": 221,
+          "clientWidth": 170,
+          "lines": 1,
+          "content": "Datei herunterladen",
+          "lineHeight": 24,
+          "letterSpacing": 1.92,
+          "wordSpacing": 2.56,
+          "overflowX": "hidden",
+          "clipped": true
+        },
+        "binary": {
+          "rightOverflowPx": 51.484375,
+          "scrollWidth": 221,
+          "clientWidth": 170,
+          "lines": 1,
+          "content": "Datei herunterladen",
+          "lineHeight": 24,
+          "letterSpacing": 1.92,
+          "wordSpacing": 2.56,
+          "overflowX": "hidden",
+          "clipped": true
+        },
+        "ternary": {
+          "rightOverflowPx": 19.484375,
+          "scrollWidth": 221,
+          "clientWidth": 202,
+          "lines": 1,
+          "content": "Datei herunterladen",
+          "lineHeight": 24,
+          "letterSpacing": 1.92,
+          "wordSpacing": 2.56,
+          "overflowX": "hidden",
+          "clipped": true
+        },
+        "negative": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 202,
+          "clientWidth": 202,
+          "lines": 2,
+          "content": "Datei herunterladen",
+          "lineHeight": 24,
+          "letterSpacing": 1.92,
+          "wordSpacing": 2.56,
+          "overflowX": "hidden",
+          "clipped": false
+        }
+      },
+      "checkerboardSelected": false,
+      "screenshot": "de-320-spacing.png",
+      "screenshotSha256": "536dcf022aaf564ab0102bb3856f928d78bcb600d64e03c17f788a0f09a6d7f7"
+    },
+    {
+      "locale": "fr",
+      "width": 1280,
+      "regime": "native",
+      "expected": {
+        "unary": false,
+        "binary": false,
+        "ternary": false,
+        "negative": false
+      },
+      "observed": {
+        "unary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 170,
+          "clientWidth": 170,
+          "lines": 1,
+          "content": "Télécharger",
+          "lineHeight": 19.2,
+          "letterSpacing": 0,
+          "wordSpacing": 0,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "binary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 248,
+          "clientWidth": 248,
+          "lines": 1,
+          "content": "Télécharger",
+          "lineHeight": 19.2,
+          "letterSpacing": 0,
+          "wordSpacing": 0,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "ternary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 248,
+          "clientWidth": 248,
+          "lines": 1,
+          "content": "Télécharger",
+          "lineHeight": 19.2,
+          "letterSpacing": 0,
+          "wordSpacing": 0,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "negative": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 248,
+          "clientWidth": 248,
+          "lines": 1,
+          "content": "Télécharger",
+          "lineHeight": 19.2,
+          "letterSpacing": 0,
+          "wordSpacing": 0,
+          "overflowX": "hidden",
+          "clipped": false
+        }
+      },
+      "checkerboardSelected": true,
+      "screenshot": "fr-1280-native.png",
+      "screenshotSha256": "f7c0a2d3d313ef30d670bd193f8dc0c73af2a8ba157c192ff37fd31f586a528f"
+    },
+    {
+      "locale": "fr",
+      "width": 1280,
+      "regime": "spacing",
+      "expected": {
+        "unary": false,
+        "binary": false,
+        "ternary": false,
+        "negative": false
+      },
+      "observed": {
+        "unary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 170,
+          "clientWidth": 170,
+          "lines": 1,
+          "content": "Télécharger",
+          "lineHeight": 24,
+          "letterSpacing": 1.92,
+          "wordSpacing": 2.56,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "binary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 248,
+          "clientWidth": 248,
+          "lines": 1,
+          "content": "Télécharger",
+          "lineHeight": 24,
+          "letterSpacing": 1.92,
+          "wordSpacing": 2.56,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "ternary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 248,
+          "clientWidth": 248,
+          "lines": 1,
+          "content": "Télécharger",
+          "lineHeight": 24,
+          "letterSpacing": 1.92,
+          "wordSpacing": 2.56,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "negative": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 248,
+          "clientWidth": 248,
+          "lines": 1,
+          "content": "Télécharger",
+          "lineHeight": 24,
+          "letterSpacing": 1.92,
+          "wordSpacing": 2.56,
+          "overflowX": "hidden",
+          "clipped": false
+        }
+      },
+      "checkerboardSelected": false,
+      "screenshot": "fr-1280-spacing.png",
+      "screenshotSha256": "5eca54dd9abed9b22c02847932babe682e014062dbe63bc36507ceea3383b94c"
+    },
+    {
+      "locale": "fr",
+      "width": 768,
+      "regime": "native",
+      "expected": {
+        "unary": false,
+        "binary": false,
+        "ternary": false,
+        "negative": false
+      },
+      "observed": {
+        "unary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 170,
+          "clientWidth": 170,
+          "lines": 1,
+          "content": "Télécharger",
+          "lineHeight": 19.2,
+          "letterSpacing": 0,
+          "wordSpacing": 0,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "binary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 248,
+          "clientWidth": 248,
+          "lines": 1,
+          "content": "Télécharger",
+          "lineHeight": 19.2,
+          "letterSpacing": 0,
+          "wordSpacing": 0,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "ternary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 248,
+          "clientWidth": 248,
+          "lines": 1,
+          "content": "Télécharger",
+          "lineHeight": 19.2,
+          "letterSpacing": 0,
+          "wordSpacing": 0,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "negative": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 248,
+          "clientWidth": 248,
+          "lines": 1,
+          "content": "Télécharger",
+          "lineHeight": 19.2,
+          "letterSpacing": 0,
+          "wordSpacing": 0,
+          "overflowX": "hidden",
+          "clipped": false
+        }
+      },
+      "checkerboardSelected": false,
+      "screenshot": "fr-768-native.png",
+      "screenshotSha256": "988ded1a8822fc68939bd8802f1778a4503c80fbc20d77ccebc54dabd51e481d"
+    },
+    {
+      "locale": "fr",
+      "width": 768,
+      "regime": "spacing",
+      "expected": {
+        "unary": false,
+        "binary": false,
+        "ternary": false,
+        "negative": false
+      },
+      "observed": {
+        "unary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 170,
+          "clientWidth": 170,
+          "lines": 1,
+          "content": "Télécharger",
+          "lineHeight": 24,
+          "letterSpacing": 1.92,
+          "wordSpacing": 2.56,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "binary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 248,
+          "clientWidth": 248,
+          "lines": 1,
+          "content": "Télécharger",
+          "lineHeight": 24,
+          "letterSpacing": 1.92,
+          "wordSpacing": 2.56,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "ternary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 248,
+          "clientWidth": 248,
+          "lines": 1,
+          "content": "Télécharger",
+          "lineHeight": 24,
+          "letterSpacing": 1.92,
+          "wordSpacing": 2.56,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "negative": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 248,
+          "clientWidth": 248,
+          "lines": 1,
+          "content": "Télécharger",
+          "lineHeight": 24,
+          "letterSpacing": 1.92,
+          "wordSpacing": 2.56,
+          "overflowX": "hidden",
+          "clipped": false
+        }
+      },
+      "checkerboardSelected": true,
+      "screenshot": "fr-768-spacing.png",
+      "screenshotSha256": "5afc4bcfa7a19c2dfa6e00dce7c49292e17553b762564b86bb0cdbf67d01f362"
+    },
+    {
+      "locale": "fr",
+      "width": 375,
+      "regime": "native",
+      "expected": {
+        "unary": false,
+        "binary": false,
+        "ternary": false,
+        "negative": false
+      },
+      "observed": {
+        "unary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 170,
+          "clientWidth": 170,
+          "lines": 1,
+          "content": "Télécharger",
+          "lineHeight": 19.2,
+          "letterSpacing": 0,
+          "wordSpacing": 0,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "binary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 248,
+          "clientWidth": 248,
+          "lines": 1,
+          "content": "Télécharger",
+          "lineHeight": 19.2,
+          "letterSpacing": 0,
+          "wordSpacing": 0,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "ternary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 248,
+          "clientWidth": 248,
+          "lines": 1,
+          "content": "Télécharger",
+          "lineHeight": 19.2,
+          "letterSpacing": 0,
+          "wordSpacing": 0,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "negative": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 248,
+          "clientWidth": 248,
+          "lines": 1,
+          "content": "Télécharger",
+          "lineHeight": 19.2,
+          "letterSpacing": 0,
+          "wordSpacing": 0,
+          "overflowX": "hidden",
+          "clipped": false
+        }
+      },
+      "checkerboardSelected": true,
+      "screenshot": "fr-375-native.png",
+      "screenshotSha256": "034d6045a9ca66c1f0d81c786bf5d62eca66916ee04e5aa9fd22abb78929d29f"
+    },
+    {
+      "locale": "fr",
+      "width": 375,
+      "regime": "spacing",
+      "expected": {
+        "unary": false,
+        "binary": false,
+        "ternary": false,
+        "negative": false
+      },
+      "observed": {
+        "unary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 170,
+          "clientWidth": 170,
+          "lines": 1,
+          "content": "Télécharger",
+          "lineHeight": 24,
+          "letterSpacing": 1.92,
+          "wordSpacing": 2.56,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "binary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 248,
+          "clientWidth": 248,
+          "lines": 1,
+          "content": "Télécharger",
+          "lineHeight": 24,
+          "letterSpacing": 1.92,
+          "wordSpacing": 2.56,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "ternary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 248,
+          "clientWidth": 248,
+          "lines": 1,
+          "content": "Télécharger",
+          "lineHeight": 24,
+          "letterSpacing": 1.92,
+          "wordSpacing": 2.56,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "negative": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 248,
+          "clientWidth": 248,
+          "lines": 1,
+          "content": "Télécharger",
+          "lineHeight": 24,
+          "letterSpacing": 1.92,
+          "wordSpacing": 2.56,
+          "overflowX": "hidden",
+          "clipped": false
+        }
+      },
+      "checkerboardSelected": false,
+      "screenshot": "fr-375-spacing.png",
+      "screenshotSha256": "95a750a5587c3c67c3a34234ef24673e09ae5ba39bf30504b8947204c6da26a5"
+    },
+    {
+      "locale": "fr",
+      "width": 320,
+      "regime": "native",
+      "expected": {
+        "unary": false,
+        "binary": false,
+        "ternary": false,
+        "negative": false
+      },
+      "observed": {
+        "unary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 170,
+          "clientWidth": 170,
+          "lines": 1,
+          "content": "Télécharger",
+          "lineHeight": 19.2,
+          "letterSpacing": 0,
+          "wordSpacing": 0,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "binary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 170,
+          "clientWidth": 170,
+          "lines": 1,
+          "content": "Télécharger",
+          "lineHeight": 19.2,
+          "letterSpacing": 0,
+          "wordSpacing": 0,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "ternary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 202,
+          "clientWidth": 202,
+          "lines": 1,
+          "content": "Télécharger",
+          "lineHeight": 19.2,
+          "letterSpacing": 0,
+          "wordSpacing": 0,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "negative": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 202,
+          "clientWidth": 202,
+          "lines": 1,
+          "content": "Télécharger",
+          "lineHeight": 19.2,
+          "letterSpacing": 0,
+          "wordSpacing": 0,
+          "overflowX": "hidden",
+          "clipped": false
+        }
+      },
+      "checkerboardSelected": false,
+      "screenshot": "fr-320-native.png",
+      "screenshotSha256": "2396e451ce3458d5b39214e364a8a3e58c2cd684c1976b8f0174dcd7880b9693"
+    },
+    {
+      "locale": "fr",
+      "width": 320,
+      "regime": "spacing",
+      "expected": {
+        "unary": false,
+        "binary": false,
+        "ternary": false,
+        "negative": false
+      },
+      "observed": {
+        "unary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 170,
+          "clientWidth": 170,
+          "lines": 1,
+          "content": "Télécharger",
+          "lineHeight": 24,
+          "letterSpacing": 1.92,
+          "wordSpacing": 2.56,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "binary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 170,
+          "clientWidth": 170,
+          "lines": 1,
+          "content": "Télécharger",
+          "lineHeight": 24,
+          "letterSpacing": 1.92,
+          "wordSpacing": 2.56,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "ternary": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 202,
+          "clientWidth": 202,
+          "lines": 1,
+          "content": "Télécharger",
+          "lineHeight": 24,
+          "letterSpacing": 1.92,
+          "wordSpacing": 2.56,
+          "overflowX": "hidden",
+          "clipped": false
+        },
+        "negative": {
+          "rightOverflowPx": 0,
+          "scrollWidth": 202,
+          "clientWidth": 202,
+          "lines": 1,
+          "content": "Télécharger",
+          "lineHeight": 24,
+          "letterSpacing": 1.92,
+          "wordSpacing": 2.56,
+          "overflowX": "hidden",
+          "clipped": false
+        }
+      },
+      "checkerboardSelected": true,
+      "screenshot": "fr-320-spacing.png",
+      "screenshotSha256": "b7cd33a50c862d41c798bbee71cb7477cb05baf861864005e878d33e93087293"
+    }
+  ]
+}
