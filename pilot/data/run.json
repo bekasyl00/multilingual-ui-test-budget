@@ -1,0 +1,8 @@
+{
+  "node": "v25.4.0",
+  "browser": "157.0.8103.39",
+  "playwright": "1.64.0-alpha-1790635538000",
+  "planned": 144,
+  "wallMs": 101257,
+  "protocolSha256": "dae64d01d43486b5b26da43670bcc96ed48f63f253a7d02793d11c3265988633"
+}

@@ -1,0 +1,224 @@
+{
+  "it-refresh": {
+    "cases": 24,
+    "statuses": {
+      "passed": 24
+    },
+    "locale_markers": {
+      "en": [
+        "Uppercase (ABC...)"
+      ],
+      "de": [
+        "Großbuchstaben (ABC...)"
+      ],
+      "fr": [
+        "Majuscules (ABC...)"
+      ]
+    },
+    "all": {
+      "screen_positive": 0,
+      "task_errors": 0,
+      "configuration_ms_sum": 72937
+    },
+    "pairwise": {
+      "screen_positive": 0,
+      "task_errors": 0,
+      "configuration_ms_sum": 36280
+    },
+    "risk": {
+      "screen_positive": 0,
+      "task_errors": 0,
+      "configuration_ms_sum": 33960
+    },
+    "random_mean": {
+      "screen_positive": 0,
+      "task_errors": 0,
+      "configuration_ms_sum": 36452.048
+    }
+  },
+  "it-search": {
+    "cases": 24,
+    "statuses": {
+      "passed": 24
+    },
+    "locale_markers": {
+      "en": [
+        "Token generator\nGenerate random string with the chars you want, uppercase or lowercase letters, numbers and/or symbols."
+      ],
+      "de": [
+        "Token-Generator\nGeneriere eine zufällige Zeichenfolge mit den von dir gewünschten Zeichen, Groß- oder Kleinbuchstaben, Zahlen und/oder Symbolen."
+      ],
+      "fr": [
+        "Générateur de token\nGénère une chaîne aléatoire avec les caractères que vous voulez, lettres majuscules ou minuscules, chiffres et/ou symboles."
+      ]
+    },
+    "all": {
+      "screen_positive": 0,
+      "task_errors": 0,
+      "configuration_ms_sum": 105750
+    },
+    "pairwise": {
+      "screen_positive": 0,
+      "task_errors": 0,
+      "configuration_ms_sum": 52947
+    },
+    "risk": {
+      "screen_positive": 0,
+      "task_errors": 0,
+      "configuration_ms_sum": 55545
+    },
+    "random_mean": {
+      "screen_positive": 0,
+      "task_errors": 0,
+      "configuration_ms_sum": 52603.038
+    }
+  },
+  "kiwix-theme": {
+    "cases": 24,
+    "statuses": {
+      "passed": 24
+    },
+    "locale_markers": {
+      "en": [
+        "Configure"
+      ],
+      "es": [
+        "Configurar"
+      ],
+      "fr": [
+        "Configuration"
+      ]
+    },
+    "all": {
+      "screen_positive": 0,
+      "task_errors": 0,
+      "configuration_ms_sum": 52997
+    },
+    "pairwise": {
+      "screen_positive": 0,
+      "task_errors": 0,
+      "configuration_ms_sum": 26560
+    },
+    "risk": {
+      "screen_positive": 0,
+      "task_errors": 0,
+      "configuration_ms_sum": 26952
+    },
+    "random_mean": {
+      "screen_positive": 0,
+      "task_errors": 0,
+      "configuration_ms_sum": 26422.874
+    }
+  },
+  "kiwix-usage": {
+    "cases": 24,
+    "statuses": {
+      "passed": 24
+    },
+    "locale_markers": {
+      "en": [
+        "About"
+      ],
+      "es": [
+        "Información"
+      ],
+      "fr": [
+        "Informations"
+      ]
+    },
+    "all": {
+      "screen_positive": 0,
+      "task_errors": 0,
+      "configuration_ms_sum": 58454
+    },
+    "pairwise": {
+      "screen_positive": 0,
+      "task_errors": 0,
+      "configuration_ms_sum": 29350
+    },
+    "risk": {
+      "screen_positive": 0,
+      "task_errors": 0,
+      "configuration_ms_sum": 26178
+    },
+    "random_mean": {
+      "screen_positive": 0,
+      "task_errors": 0,
+      "configuration_ms_sum": 29190.826
+    }
+  },
+  "pdf-find": {
+    "cases": 24,
+    "statuses": {
+      "passed": 24
+    },
+    "locale_markers": {
+      "en": [
+        "Find in Document"
+      ],
+      "es": [
+        "Buscar en el documento"
+      ],
+      "fr": [
+        "Rechercher dans le document"
+      ]
+    },
+    "all": {
+      "screen_positive": 11,
+      "task_errors": 0,
+      "configuration_ms_sum": 57666
+    },
+    "pairwise": {
+      "screen_positive": 5,
+      "task_errors": 0,
+      "configuration_ms_sum": 29026
+    },
+    "risk": {
+      "screen_positive": 11,
+      "task_errors": 0,
+      "configuration_ms_sum": 28603
+    },
+    "random_mean": {
+      "screen_positive": 5.49,
+      "task_errors": 0,
+      "configuration_ms_sum": 28803.138
+    }
+  },
+  "pdf-page": {
+    "cases": 24,
+    "statuses": {
+      "passed": 24
+    },
+    "locale_markers": {
+      "en": [
+        "Find in Document"
+      ],
+      "es": [
+        "Buscar en el documento"
+      ],
+      "fr": [
+        "Rechercher dans le document"
+      ]
+    },
+    "all": {
+      "screen_positive": 11,
+      "task_errors": 0,
+      "configuration_ms_sum": 41788
+    },
+    "pairwise": {
+      "screen_positive": 5,
+      "task_errors": 0,
+      "configuration_ms_sum": 21058
+    },
+    "risk": {
+      "screen_positive": 11,
+      "task_errors": 0,
+      "configuration_ms_sum": 21952
+    },
+    "random_mean": {
+      "screen_positive": 5.45,
+      "task_errors": 0,
+      "configuration_ms_sum": 20905.578
+    }
+  }
+}

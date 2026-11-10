@@ -1,5 +1,7 @@
 # Testing multilingual layouts when pairwise coverage is not enough
 
+**11 November pilot update.** [Reproduce the three-application experiment](pilot/README.md) or [read the new results](pilot/results.md). The original technical report remains available in the release.
+
 [Read the technical report (PDF)](technical-report.pdf) · [Report source](report.md)
 
 **Project lead:** Bekasyl Zhaksylyk. **Version:** 0.1, 10 November 2026. This repository publishes a technical report with code and evidence. It is not a journal or conference publication. Codex assisted with implementation, execution, analysis and drafting. Human validation and peer review remain open.
