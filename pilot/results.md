@@ -11,7 +11,7 @@ The matrix completed 144 of 144 defined task checks and recorded 288 screenshots
 | Kiwix JS | Select dark appearance | 24/24 | 0 |
 | Kiwix JS | Open the usage section | 24/24 | 0 |
 
-The geometry rule flags horizontal overflow of the document or target beyond a one-pixel tolerance. All 22 signals came from document width in PDF.js, where both tested actions still completed. At 320 px, signals occurred in native and increased-spacing cases. The repeated signals across the two tasks may share a mechanism. Review is required to determine if content was lost, recoverable or outside the task scope.
+The geometry rule flags horizontal overflow of the document or target beyond a one-pixel tolerance. All 22 signals came from document width in PDF.js, where both tested actions still completed. Grouping the task runs by locale, width and spacing leaves 11 distinct PDF.js settings with a signal. Both tasks were flagged in exactly those same 11 settings. At 320 px, all three locales were flagged under both spacing regimes. At 375 px, two of three locales were flagged with native spacing and all three with increased spacing. Neither task was flagged at 768 or 1280 px. This overlap makes the two task counts dependent and does not establish how many mechanisms produced the signals. Review is required to determine if content was lost, recoverable or outside the task scope.
 
 ## Twelve configurations per task
 
