@@ -4,7 +4,7 @@
 
 [Read the technical report (PDF)](technical-report.pdf) · [Report source](report.md)
 
-**Project lead:** Bekasyl Zhaksylyk. **Version:** 0.1, 10 November 2026. This repository publishes a technical report with code and evidence. It is not a journal or conference publication. Codex assisted with implementation, execution, analysis and drafting. Human validation and peer review remain open.
+**Project lead:** Bekasyl Zhaksylyk. **Version:** 0.1, 10 November 2026. This repository publishes a technical report with code and evidence. It is not a journal or conference publication. AI tools assisted with implementation, execution, analysis and drafting. Human validation and peer review remain open.
 
 In a 24-configuration grid, a 12-test checkerboard covers every locale–width, locale–spacing and width–spacing pair. It misses a constructed German/320 px/spacing case where a label clips by 19.48 CSS px. A separate IT-Tools replay found a 17→21 px token line-advance change across 12 locale–width pairs. The constructed clipping result is not a real-app defect estimate.
 

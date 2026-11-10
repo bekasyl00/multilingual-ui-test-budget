@@ -21,7 +21,7 @@ A team deciding which localized build to check with a small budget needs more th
 
 ### Contribution statement
 
-Bekasyl Zhaksylyk directs the project and its academic goals. Codex assisted with implementation, execution, analysis and drafting. Human validation and peer review remain open. No university affiliation or endorsement of this report is implied.
+Bekasyl Zhaksylyk directs the project and its academic goals. AI tools assisted with implementation, execution, analysis and drafting. Human validation and peer review remain open. No university affiliation or endorsement of this report is implied.
 
 <!-- pagebreak -->
 
