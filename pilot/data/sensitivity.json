@@ -1,0 +1,167 @@
+[
+  {
+    "tolerance_css_px": 0,
+    "app": "it",
+    "positive_task_runs": 0,
+    "distinct_flagged_settings": 0,
+    "uniform_random_expected_positive_runs_at_12_per_task": 0.0,
+    "uniform_random_probability_of_no_signal_per_task": {
+      "refresh": 1.0,
+      "search": 1.0
+    }
+  },
+  {
+    "tolerance_css_px": 0,
+    "app": "kiwix",
+    "positive_task_runs": 0,
+    "distinct_flagged_settings": 0,
+    "uniform_random_expected_positive_runs_at_12_per_task": 0.0,
+    "uniform_random_probability_of_no_signal_per_task": {
+      "theme": 1.0,
+      "usage": 1.0
+    }
+  },
+  {
+    "tolerance_css_px": 0,
+    "app": "pdf",
+    "positive_task_runs": 22,
+    "distinct_flagged_settings": 11,
+    "uniform_random_expected_positive_runs_at_12_per_task": 11.0,
+    "uniform_random_probability_of_no_signal_per_task": {
+      "find": 4.807414956829413e-06,
+      "page": 4.807414956829413e-06
+    }
+  },
+  {
+    "tolerance_css_px": 1,
+    "app": "it",
+    "positive_task_runs": 0,
+    "distinct_flagged_settings": 0,
+    "uniform_random_expected_positive_runs_at_12_per_task": 0.0,
+    "uniform_random_probability_of_no_signal_per_task": {
+      "refresh": 1.0,
+      "search": 1.0
+    }
+  },
+  {
+    "tolerance_css_px": 1,
+    "app": "kiwix",
+    "positive_task_runs": 0,
+    "distinct_flagged_settings": 0,
+    "uniform_random_expected_positive_runs_at_12_per_task": 0.0,
+    "uniform_random_probability_of_no_signal_per_task": {
+      "theme": 1.0,
+      "usage": 1.0
+    }
+  },
+  {
+    "tolerance_css_px": 1,
+    "app": "pdf",
+    "positive_task_runs": 22,
+    "distinct_flagged_settings": 11,
+    "uniform_random_expected_positive_runs_at_12_per_task": 11.0,
+    "uniform_random_probability_of_no_signal_per_task": {
+      "find": 4.807414956829413e-06,
+      "page": 4.807414956829413e-06
+    }
+  },
+  {
+    "tolerance_css_px": 4,
+    "app": "it",
+    "positive_task_runs": 0,
+    "distinct_flagged_settings": 0,
+    "uniform_random_expected_positive_runs_at_12_per_task": 0.0,
+    "uniform_random_probability_of_no_signal_per_task": {
+      "refresh": 1.0,
+      "search": 1.0
+    }
+  },
+  {
+    "tolerance_css_px": 4,
+    "app": "kiwix",
+    "positive_task_runs": 0,
+    "distinct_flagged_settings": 0,
+    "uniform_random_expected_positive_runs_at_12_per_task": 0.0,
+    "uniform_random_probability_of_no_signal_per_task": {
+      "theme": 1.0,
+      "usage": 1.0
+    }
+  },
+  {
+    "tolerance_css_px": 4,
+    "app": "pdf",
+    "positive_task_runs": 20,
+    "distinct_flagged_settings": 10,
+    "uniform_random_expected_positive_runs_at_12_per_task": 10.0,
+    "uniform_random_probability_of_no_signal_per_task": {
+      "find": 3.3651904697805894e-05,
+      "page": 3.3651904697805894e-05
+    }
+  },
+  {
+    "tolerance_css_px": 8,
+    "app": "it",
+    "positive_task_runs": 0,
+    "distinct_flagged_settings": 0,
+    "uniform_random_expected_positive_runs_at_12_per_task": 0.0,
+    "uniform_random_probability_of_no_signal_per_task": {
+      "refresh": 1.0,
+      "search": 1.0
+    }
+  },
+  {
+    "tolerance_css_px": 8,
+    "app": "kiwix",
+    "positive_task_runs": 0,
+    "distinct_flagged_settings": 0,
+    "uniform_random_expected_positive_runs_at_12_per_task": 0.0,
+    "uniform_random_probability_of_no_signal_per_task": {
+      "theme": 1.0,
+      "usage": 1.0
+    }
+  },
+  {
+    "tolerance_css_px": 8,
+    "app": "pdf",
+    "positive_task_runs": 16,
+    "distinct_flagged_settings": 8,
+    "uniform_random_expected_positive_runs_at_12_per_task": 8.0,
+    "uniform_random_probability_of_no_signal_per_task": {
+      "find": 0.0006730380939561179,
+      "page": 0.0006730380939561179
+    }
+  },
+  {
+    "tolerance_css_px": 16,
+    "app": "it",
+    "positive_task_runs": 0,
+    "distinct_flagged_settings": 0,
+    "uniform_random_expected_positive_runs_at_12_per_task": 0.0,
+    "uniform_random_probability_of_no_signal_per_task": {
+      "refresh": 1.0,
+      "search": 1.0
+    }
+  },
+  {
+    "tolerance_css_px": 16,
+    "app": "kiwix",
+    "positive_task_runs": 0,
+    "distinct_flagged_settings": 0,
+    "uniform_random_expected_positive_runs_at_12_per_task": 0.0,
+    "uniform_random_probability_of_no_signal_per_task": {
+      "theme": 1.0,
+      "usage": 1.0
+    }
+  },
+  {
+    "tolerance_css_px": 16,
+    "app": "pdf",
+    "positive_task_runs": 14,
+    "distinct_flagged_settings": 8,
+    "uniform_random_expected_positive_runs_at_12_per_task": 7.0,
+    "uniform_random_probability_of_no_signal_per_task": {
+      "find": 0.0006730380939561179,
+      "page": 0.006864988558352402
+    }
+  }
+]

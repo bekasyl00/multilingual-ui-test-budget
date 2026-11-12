@@ -23,6 +23,22 @@ The geometry rule flags horizontal overflow of the document or target beyond a o
 
 The risk rule prioritises the smallest widths and the signal is horizontal overflow. This result measures screening behaviour for this grid. Functional checks produced zero failures and there are no independent defect-family labels, so defect recall and false alarms are undefined. Per-method time fields are sums of measured case durations from the full-grid run. Direct runtime comparisons require executing and timing each subset separately.
 
+## Retrospective threshold sensitivity
+
+The screen uses document overflow or a positive-width target extending beyond the horizontal viewport. Recomputing from the archived geometry gives the following PDF.js counts. IT-Tools and Kiwix JS have zero signals at all five tolerances.
+
+| Tolerance, CSS px | Positive task runs | Distinct flagged settings | Exact expected positive runs, uniform random |
+|---|---:|---:|---:|
+| 0 | 22 | 11 | 11 |
+| 1 | 22 | 11 | 11 |
+| 4 | 20 | 10 | 10 |
+| 8 | 16 | 8 | 8 |
+| 16 | 14 | 8 | 7 |
+
+Uniform random selects 12 of 24 settings separately for each task. For a task with K screen-positive settings, the expected count is 12K/24. Summing expectations does not require task independence. At the original one-pixel tolerance the exact expectation is 11 positive task runs, compared with 10.94 in the archived Monte Carlo estimate. The probability of selecting no positive settings for a task is C(24-K,12)/C(24,12), with probability zero if fewer than 12 negative settings exist. These quantities describe selection of geometry signals. Independent task-impact labels have not been collected.
+
+The persistence of signals at larger tolerances shows that they are not all one-pixel boundary effects. At 16 px the two task screens no longer agree in every flagged setting. The tolerance choices are retrospective and provide no estimate of generalisation to other applications. Reproduce with `python3 pilot/sensitivity.py pilot/data/runs.jsonl` and compare with [the archived sensitivity output](data/sensitivity.json). The [independent review protocol](review-protocol.md) specifies the next validation step.
+
 ## Spacing audit
 
 The intervention attempted all four inherited spacing rules. All 24 IT-Tools intervention runs reported zero threshold failures. All 24 PDF.js intervention runs reported one failing element and 106 text elements whose native line height remained unresolved. All 24 Kiwix intervention runs reported four failing elements and 15 unresolved text elements. A separate FR/320 repeat traced PDF.js's letter-spacing mismatch to the viewer alert and Kiwix's line-height mismatches to four native select controls. The Kiwix theme select reported normal line height. The four other audited action targets and the Kiwix usage target reported numeric line height with the requested letter and word spacing. These are instrument diagnostics. The results cannot establish spacing conformance for either application.
